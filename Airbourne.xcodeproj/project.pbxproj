@@ -6,10 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		DBCFF61F1AB91CD20056BDD6 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		DBCFF6201AB91E6E0056BDD6 /* base-alias.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "base-alias.js"; sourceTree = "<group>"; };
+		DBCFF6211AB920240056BDD6 /* scanner.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scanner.js; sourceTree = "<group>"; };
+		DBCFF6221AB9B0CE0056BDD6 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		DBCFF6231AB9BA7C0056BDD6 /* file-transmitter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "file-transmitter.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		DBCFF6141AB91C1A0056BDD6 = {
 			isa = PBXGroup;
 			children = (
+				DBCFF6231AB9BA7C0056BDD6 /* file-transmitter.js */,
+				DBCFF6221AB9B0CE0056BDD6 /* package.json */,
+				DBCFF6211AB920240056BDD6 /* scanner.js */,
+				DBCFF6201AB91E6E0056BDD6 /* base-alias.js */,
+				DBCFF61F1AB91CD20056BDD6 /* main.js */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +187,7 @@
 				DBCFF61E1AB91C1A0056BDD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,3 +8,14 @@
     background: #533F64;
     color:      #fcfefd;
 }
+
+.dropIcon {
+    position: relative;
+    
+    width: 90px;
+    height: 90px;
+}
+
+#wrapper {
+    text-align: center;
+}

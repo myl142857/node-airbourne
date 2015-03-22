@@ -2,7 +2,7 @@
 // Active connections
 (function(){
  var net = require('net');
- var ip = require('IP');
+ var ip = require('ip');
  const SERVICE_PORT = 1337;
  
  var Socket = net.Socket;

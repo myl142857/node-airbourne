@@ -2,7 +2,7 @@
   "name": "node-airbourne",
   "version": "0.0.1",
   "description": "Drop files to other device on LAN",
-  "main": "main.js",
+  "main": "main.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,9 @@
   "license": "WTFPL",
   "dependencies": {
     "ip": "^0.3.2"
+  },
+  "window": {
+    "frame": "true",
+    "toolbar": "true"
   }
 }

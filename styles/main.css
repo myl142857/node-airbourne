@@ -1,4 +1,4 @@
-/* Main Styling   */
+/*  Main Styling   */
 body {
     font-family: "Roboto";
     font-size: 14px;
@@ -13,4 +13,8 @@ h1 {
     font-family: "Roboto";
     font-weight: 200;
     color: white;
+}
+/*  Hide  */
+.hideAll {
+    display: none !important;
 }

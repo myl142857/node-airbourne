@@ -1,4 +1,8 @@
 (function(){
+  function stopDrop(evt) {
+    evt.stopPropagation();
+    evt.preventDefault();
+  };
   function handleFileSelect(evt) {
     evt.stopPropagation();
     evt.preventDefault();
@@ -27,5 +31,8 @@
   var dropZone = document.getElementById('airdropIcon');
   dropZone.addEventListener('dragover', handleDragOver, false);
   dropZone.addEventListener('drop', handleFileSelect, false);
+  var body = document.getElementById('body');
+  body.addEventListener('dragover', handleDragOver, false);
+  body.addEventListener('drop', stopDrop, false);
 
 })()

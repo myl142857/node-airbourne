@@ -17,5 +17,16 @@
 }
 
 #wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 108px);
+    padding-top: 108px;
     text-align: center;
+}
+#loadingIcon {
+    -webkit-animation: spinner 0.8s linear infinite;
+    animation: spinner 0.8s linear infinite;
+
 }

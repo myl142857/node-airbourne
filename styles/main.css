@@ -1,1 +1,16 @@
 /* Main Styling   */
+body {
+    font-family: "Helvetica LT";
+    font-size: 14px;
+    background: #242a2c;
+}
+h2 {
+    font-family: "Helvetica LT";
+    font-size: 18px;
+    line-height: 4px;
+}
+h1 {
+    font-family: "Helvetica LT";
+    font-weight: 100;
+    color: white;
+}
